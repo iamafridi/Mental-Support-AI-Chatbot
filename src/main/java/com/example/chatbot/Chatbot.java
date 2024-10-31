@@ -1,20 +1,24 @@
 package com.example.chatbot;
 
-import com.google.gson.Gson; // Assuming you are using Gson for JSON handling
-
 public class ChatBot {
-    private final Gson gson;
 
-    public ChatBot() {
-        this.gson = new Gson();
-    }
-
-    // Change the access modifier to public
     public String getResponse(String input) {
-        // Example logic for generating a response
-        if (input == null || input.isEmpty()) {
-            return "Please say something!";
+        String response;
+        switch (input.toLowerCase()) {
+            case "hi":
+            case "hello":
+                response = "Hello! How can I assist you today?";
+                break;
+            case "i feel anxious about my upcoming exam":
+                response = "It's normal to feel anxious before an exam. Would you like some tips to manage your anxiety?";
+                break;
+            case "i feel sad":
+                response = "I'm sorry to hear that you're feeling sad. It's okay to talk about it if you want.";
+                break;
+            default:
+                response = "You said: " + input;
+                break;
         }
-        return "You said: " + input;
+        return response;
     }
 }

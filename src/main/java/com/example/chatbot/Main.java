@@ -11,15 +11,11 @@ public class Main {
         while (true) {
             System.out.print("You: ");
             String userInput = scanner.nextLine();
-
             if (userInput.equalsIgnoreCase("exit")) {
-                System.out.println("Chat Bot: Goodbye!");
                 break;
             }
-
-            // Get response from the ChatBot
             String response = chatBot.getResponse(userInput);
-            System.out.println("Chat Bot: " + response);
+            System.out.println("ChatBot: " + response);
         }
 
         scanner.close();
