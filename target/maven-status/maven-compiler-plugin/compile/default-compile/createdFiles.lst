@@ -1,5 +1,6 @@
-com\example\chatbot\User.class
 com\example\chatbot\ResourceManager.class
-com\example\chatbot\SentimentAnalyzer.class
 com\example\chatbot\Main.class
 com\example\chatbot\ChatBot.class
+com\example\chatbot\User.class
+DynamicChatBot.class
+com\example\chatbot\SentimentAnalyzer.class

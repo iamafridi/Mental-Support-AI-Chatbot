@@ -172,9 +172,6 @@ public class ChatBot {
             case "what are some ways to cope with rejection?":
                 response = "Rejection can be tough. Remember that it's not a reflection of your worth. Surround yourself with supportive people.";
                 break;
-            case "i struggle with procrastination.":
-                response = "Try breaking tasks into smaller steps and set deadlines for each to stay motivated.";
-                break;
             case "what can i do to build confidence?":
                 response = "Start by setting small goals and celebrating your achievements, no matter how minor.";
                 break;
@@ -505,9 +502,6 @@ public class ChatBot {
             case "i feel like no one understands me.":
                 response = "It can help to talk to someone who shares similar experiences or feelings.";
                 break;
-            case "what can i do to improve my sleep quality?":
-                response = "Establish a relaxing bedtime routine and avoid screens before bed.";
-                break;
             case "i feel stressed about the future.":
                 response = "Focus on what you can control today, and take things one step at a time.";
                 break;
@@ -640,7 +634,6 @@ public class ChatBot {
             case "i often struggle with self-doubt.":
                 response = "Challenge negative thoughts by focusing on your strengths and accomplishments.";
                 break;
-
 
             default:
                 response = "I'm not sure how to respond to that. Can you tell me more or ask something else?";
