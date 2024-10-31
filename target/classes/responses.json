@@ -1,0 +1,18 @@
+{
+    "positive": [
+        "I'm glad you're feeling good! Keep shining!",
+        "That's wonderful to hear! What's making you happy?"
+    ],
+    "negative": [
+        "I'm sorry to hear that. Want to talk about it?",
+        "It’s okay to feel down sometimes. I'm here to listen."
+    ],
+    "neutral": [
+        "Thanks for sharing. I'm here to listen.",
+        "Let me know if you want to talk about anything specific."
+    ],
+    "quotes": [
+        "Keep your face always toward the sunshine—and shadows will fall behind you. - Walt Whitman",
+        "You are stronger than you think."
+    ]
+}
