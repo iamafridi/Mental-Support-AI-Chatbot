@@ -1,15 +1,12 @@
 # Mental Support Chat Bot
 
 ## Overview
-I have created the **Mental Support Chat Bot**, an interactive, AI-driven application designed to provide emotional support and guidance to users experiencing various mental health challenges. Utilizing Java and the Maven build system, this chatbot aims to create a friendly and understanding environment where users can express their feelings and receive tailored responses.
+I have created the **Mental Support Chat Bot**, an interactive console-based application designed to provide emotional support and guidance to users facing various mental health challenges. Built using Java and the Maven build system, this chatbot strives to create a friendly and understanding environment where users can freely express their feelings and receive tailored responses based on keyword recognition.
 
-The chatbot employs a dynamic keyword-response system that allows it to recognize and respond to a wide range of emotions and situations. By leveraging a comprehensive set of predefined responses, the bot engages users in meaningful conversations, addressing their specific concerns such as stress, anxiety, sadness, and loneliness. It encourages users to elaborate on their feelings, fostering a deeper dialogue that can lead to more constructive and supportive interactions.
+While the bot primarily operates through a set of predefined responses linked to specific keywords, it encourages open dialogue by prompting users to elaborate on their feelings and experiences. This project underscores the importance of accessibility and support in mental health, making it easier for individuals to engage in conversations about their emotional well-being.
 
-Additionally, the Mental Support Chat Bot is designed with user-friendliness in mind. The interface is straightforward, making it easy for users to communicate without feeling overwhelmed. The bot's goal is to provide a safe space where individuals can share their thoughts and feelings without judgment, ultimately promoting mental wellness and emotional resilience.
+The **Mental Support Chat Bot** serves as a valuable tool for mental health support, facilitating interactive conversations that offer empathetic feedback and guidance tailored to a range of emotions and situations. By fostering a safe space for dialogue, this application aims to help users navigate their feelings and connect with the support they need.
 
-Through ongoing development, I aim to enhance the bot's capabilities, incorporating machine learning algorithms and natural language processing techniques to improve its understanding and responsiveness. This project not only serves as a technological endeavor but also as a personal mission to contribute positively to mental health awareness and support.
-
-The **Mental Support Chat Bot** is a Java-based application designed to provide users with mental health support through interactive conversations. The bot utilizes a set of predefined responses based on user input to facilitate meaningful exchanges, offering empathetic feedback and guidance for various emotions and situations.
 
 ## Features
 1. **Interactive Conversations**: Engages users with personalized responses based on their feelings and queries.
