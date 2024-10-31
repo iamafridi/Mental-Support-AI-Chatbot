@@ -7,6 +7,8 @@ While the bot primarily operates through a set of predefined responses linked to
 
 The **Mental Support Chat Bot** serves as a valuable tool for mental health support, facilitating interactive conversations that offer empathetic feedback and guidance tailored to a range of emotions and situations. By fostering a safe space for dialogue, this application aims to help users navigate their feelings and connect with the support they need.
 
+![image](https://github.com/user-attachments/assets/b6e57383-6bd5-4254-be28-a88cd83aced0)
+
 
 ## Features
 1. **Interactive Conversations**: Engages users with personalized responses based on their feelings and queries.
