@@ -1,16 +1,20 @@
 package com.example.chatbot;
 
-public class Chatbot {
-    private ResourceManager resourceManager;
-    private SentimentAnalyzer sentimentAnalyzer;
+import com.google.gson.Gson; // Assuming you are using Gson for JSON handling
 
-    public Chatbot() {
-        resourceManager = new ResourceManager();
-        sentimentAnalyzer = new SentimentAnalyzer();
+public class ChatBot {
+    private final Gson gson;
+
+    public ChatBot() {
+        this.gson = new Gson();
     }
 
-    public void start() {
-        // Placeholder for chatbot interaction logic
-        System.out.println("Chatbot is ready to help.");
+    // Change the access modifier to public
+    public String getResponse(String input) {
+        // Example logic for generating a response
+        if (input == null || input.isEmpty()) {
+            return "Please say something!";
+        }
+        return "You said: " + input;
     }
 }

@@ -1,9 +1,11 @@
 package com.example.chatbot;
 
-import java.io.FileReader;
-import java.io.IOException;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
+import java.io.InputStreamReader;
+import java.io.Reader;
 
 public class ResourceManager {
     private JsonObject responses;
@@ -13,16 +15,14 @@ public class ResourceManager {
     }
 
     private void loadResponses() {
-        try (FileReader reader = new FileReader("src/main/resources/responses.json")) {
-            Gson gson = new Gson();
-            responses = gson.fromJson(reader, JsonObject.class);
-            System.out.println("Responses loaded successfully.");
-        } catch (IOException e) {
-            System.err.println("Error loading responses: " + e.getMessage());
+        try (Reader reader = new InputStreamReader(getClass().getClassLoader().getResourceAsStream("responses.json"))) {
+            responses = JsonParser.parseReader(reader).getAsJsonObject();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
-    public String getResponse(String mood) {
-        return responses.get(mood).getAsString();
+    public String getResponse(String sentiment) {
+        return responses.get(sentiment).getAsString();
     }
 }
